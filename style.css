@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 7, 29);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    height: 500px;
+    width: 800px;
+    background-color: aqua;
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    z-index: 500;
+    position: absolute;
+}
